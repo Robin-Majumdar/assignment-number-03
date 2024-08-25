@@ -81,11 +81,14 @@
         </div>
     </header>
 
-    <main class="container mx-auto space-y-12">
+    <main class="space-y-12">
         <!-- We design thoughtful,liveable spaces section start is hear -->
-        <section class="mt-6 border-2 border-green-800">
+        <section class="container mx-auto mt-6">
             <div class="flex flex-col lg:flex-row gap-8 items-center justify-between py-12 px-2">
-                <div class="w-full lg:w-1/2 p-2 space-y-6">
+                <div class="w-full lg:w-1/2 p-2 space-y-6 relative">
+                    <div class="hidden md:hidden lg:flex absolute -ml-10 -mt-8">
+                    <img src="assets/icons/Vector.png" alt="Vector">
+                    </div>
                     <div class="flex justify-center md:justify-start md:flex-none">
                         <button class="flex gap-2 font-bold text-[#494949] bg-white rounded-full py-1 px-3">
                             <span>
@@ -135,8 +138,9 @@
                 </div>
             </div>
         </section>
+
         <!-- Happy Client Review/Countable number start here, this part is optional -->
-        <section>
+        <section class="container mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center rounded-xl p-6 gap-y-6 lg:gap-y-0 bg-white">
                 <div class="flex flex-col items-center justify-center space-y-1">
                     <span>
@@ -184,9 +188,9 @@
                 </div>
             </div>
         </section>
-        <!-- Our Works Process and Card section start is here -->
-        <section>
 
+        <!-- Our Works Process and Card section start is here -->
+        <section class="container mx-auto">
                     <div class="flex flex-col items-center justify-center p-2 space-y-4">
                         <button class="flex gap-2 font-bold text-[#494949] bg-white rounded-full py-1 px-3">
                             <span>
@@ -226,78 +230,150 @@
                         </div>
                     </div>
         </section>
+
         <!-- Our Latest Portfolio and Grid LayOut section start is here -->
-        <section>
-            <div class="flex flex-col items-center justify-center p-2 space-y-4">
-                <button class="flex gap-2 font-bold text-[#494949] bg-white rounded-full py-1 px-3">
-                    <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                        </svg>
-                    </span>
-                    Explore our Latest works
-                </button>
-                <h2 class="text-4xl font-bold text-[#212121]">
-                    Our Latest Portfolio
-                </h2>
-                <p class="font-medium text-justify text-[#494949] lg:w-[800px] p-2">
-                    Explore our latest portfolio to see a collection of our most recent work. Each project showcases our commitment to excellence and our ability to bring creative visions to life. From residential to commercial spaces, our portfolio reflects the diversity and quality of our design solutions.
-                </p>
-            </div>
-            <div class="p-4 border-2 border-green-600">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-4 gap-y-4">
-                    <div class="md:col-span-2 lg:col-start-1 lg:col-span-5 rounded-2xl p-4 bg-white">
-
-                        <div class="flex items-center justify-center space-x-4">
-                            <div class="w-1/2">
-                                <img class="w-full" src="assets/images/img1.png" alt="">
-                            </div>
-                            <div class="w-1/2 space-y-4">
-                                <h4 class="font-extrabold text-2xl text-justify text-[#494949]">Commercial</h4>
-                                <p class="font-medium text-[#737373]">
-                                    The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="md:col-span-1 lg:col-start-6 lg:col-span-3 rounded-2xl p-4 bg-white">
-                        <img class="w-full h-full" src="assets/images/img2.png" alt="">
-                    </div>
-
-                    <div class="md:col-span-1 lg:hidden rounded-2xl p-4 bg-white">
-                        <img class="w-full" src="assets/images/img5.png" alt="">
-                    </div>
-                    <div class="lg:col-end-3 lg:col-span-2 rounded-2xl p-4 bg-white">
-                        <img class="w-full" src="assets/images/img3.png" alt="">
-                    </div>
-
-                    
-                    <div class="md:col-span-2 lg:col-end-7 lg:col-span-4 rounded-2xl p-4 bg-white">
-                        <div class="flex items-center justify-center space-x-4">
-                            <div class="w-1/2">
-                                <img class="w-full" src="assets/images/img4.png" alt="">
-                            </div>
-                            <div class="w-1/2 space-y-4">
-                                <h4 class="font-extrabold text-2xl text-justify text-[#494949]">Commercial</h4>
-                                <p class="font-medium text-[#737373]">
-                                    The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.
-                                </p>
+        <section class="bg-white py-8">
+            <div class="container mx-auto ">
+                <div class="flex flex-col items-center justify-center p-2 space-y-4">
+                    <button class="flex gap-2 font-bold text-[#494949] bg-[#ABEF5F33] rounded-full py-1 px-3">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                        </span>
+                        Explore our Latest works
+                    </button>
+                    <h2 class="text-4xl font-bold text-[#212121]">
+                        Our Latest Portfolio
+                    </h2>
+                    <p class="font-medium text-justify text-[#494949] lg:w-[800px] p-2">
+                        Explore our latest portfolio to see a collection of our most recent work. Each project showcases our commitment to excellence and our ability to bring creative visions to life. From residential to commercial spaces, our portfolio reflects the diversity and quality of our design solutions.
+                    </p>
+                </div>
+                <!-- Grid card section -->
+                <div class="p-4 border-2 border-green-600">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-4 gap-y-4">
+                                <!-- Card-01 -->
+                        <div class="md:col-span-2 lg:col-start-1 lg:col-span-5 rounded-2xl p-4 border bg-white">
+                            <div class="flex items-center justify-center space-x-4">
+                                <div class="w-1/2">
+                                    <img class="w-full" src="assets/images/img1.png" alt="">
+                                </div>
+                                <div class="w-1/2 space-y-4">
+                                    <h4 class="font-extrabold text-2xl text-justify text-[#494949]">Commercial</h4>
+                                    <p class="font-medium text-[#737373]">
+                                        The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.
+                                    </p>
+                                    <div class="flex gap-2 px-2 py-1 items-center">
+                                        <button class="font-extrabold text-xl text-[#212121]">
+                                            View Details
+                                        </button>
+                                        <span class="p-0.5 -rotate-45 bg-[#ABEF5F] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"   stroke-width="1" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg> </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="lg:col-end-9 lg:col-span-2 rounded-2xl p-4 bg-white">
-                        <img class="w-full" src="assets/images/img5.png" alt="">
+                                <!-- Card-02 -->
+                        <div class="md:col-span-1 lg:col-start-6 lg:col-span-3 rounded-2xl p-4 border bg-white">
+                            <img class="w-full h-full" src="assets/images/img2.png" alt="">
+                        </div>
+                                <!-- Card-03 -->
+                        <div class="md:col-span-1 lg:hidden rounded-2xl p-4 border bg-white">
+                            <img class="w-full" src="assets/images/img5.png" alt="">
+                        </div>
+                                <!-- Card-04 -->
+                        <div class="lg:col-end-3 lg:col-span-2 rounded-2xl p-4 border bg-white">
+                            <img class="w-full" src="assets/images/img3.png" alt="">
+                        </div>
+                                <!-- Card-05 -->
+                        <div class="md:col-span-2 lg:col-end-7 lg:col-span-4 rounded-2xl p-4 border bg-white">
+                            <div class="flex items-center justify-center space-x-4">
+                                <div class="w-1/2">
+                                    <img class="w-full" src="assets/images/img4.png" alt="">
+                                </div>
+                                <div class="w-1/2 space-y-4">
+                                    <h4 class="font-extrabold text-2xl text-justify text-[#494949]">Commercial</h4>
+                                    <p class="font-medium text-[#737373]">
+                                        The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.
+                                    </p>
+                                    <div class="flex gap-2 px-2 py-1 items-center">
+                                        <button class="font-extrabold text-xl text-[#212121]">
+                                            View Details
+                                        </button>
+                                        <span class="p-0.5 -rotate-45 bg-[#ABEF5F] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"   stroke-width="1" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg> </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                <!-- Card-06 -->
+                        <div class="lg:col-end-9 lg:col-span-2 rounded-2xl p-4 border bg-white">
+                            <img class="w-full" src="assets/images/img5.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="h-12 border-2 border-pink-600">
+        <!-- Let s Discuss Next Project section is here -->
+        <section class="p-4 bg-no-repeat bg-cover bg-[url('/assets/images/bg.jpg')]">
+            <div> 
+                <div class="container mx-auto">
+                    <div class="flex flex-col items-center justify-center p-2 space-y-4">
+                        <button class="flex gap-2 font-bold text-[#494949] bg-[#ABEF5F33] rounded-full py-1 px-3">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>
+                            </span>
+                            Let's Connect
+                        </button>
+                        <h2 class="text-4xl font-bold text-[#212121]">
+                            Let s Discuss Next Project
+                        </h2>
+                        <p class="font-medium text-justify text-[#494949] lg:w-[800px] p-2">
+                            We're excited to collaborate on your next project. Whether you have a clear vision or need guidance, our team is here to help bring your ideas to life. Let's connect and start planning the next big step together.
+                        </p>
+                    </div>
+                </div>
+                        <!-- Let s Discuss Next Project from  -->
+                <div class="container mx-auto lg:w-4/5">
+                    <form>
+                        <div class="grid gap-4 p-2 grid-cols-1 md:grid-cols-4 lg:grid-cols-4">
+                            <div class="col-span-4 md:col-span-2 lg:col-span-2">
+                                <input class="w-full py-3 px-4 rounded-full" type="text" name="First Name" placeholder="First Name*">
+                            </div>
+                            <div class="col-span-4 md:col-span-2 lg:col-span-2">
+                                <input class="w-full py-3 px-4 rounded-full" type="text" name="Last Name" placeholder="Last Name*">
+                            </div>
+                            <div class="col-span-4 md:col-span-2 lg:col-span-2">
+                                <input class="w-full py-3 px-4 rounded-full" type="text" name="" placeholder="Phone Number*">
+                            </div>
+                            <div class="col-span-4 md:col-span-2 lg:col-span-2">
+                                <input class="w-full py-3 px-4 rounded-full" type="email" name="" placeholder="Email or Number*">
+                            </div>
+                            <div class="col-span-4">
+                                <textarea rows="8" class="w-full py-4 px-4 rounded-3xl" name="Your message" placeholder="Write your message here">
+                                </textarea>
+                            </div>
+                        </div>
+                    </form>
+                        <!-- Let s Discuss Next Project button -->
+                        <div class="p-2">
+                            <button class="btn btn-block font-extrabold text-center text-xl rounded-full mt-6 border-none bg-[#ABEF5F] text-[#1C1C1C]">
+                                Send Mail
+                                <span class="p-0.5 -rotate-45 bg-[#1C1C1C] text-white rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"   stroke-width="1" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>
+                                </span>
+                            </button>
+                        </div>
+                </div>
+            </div>
         </section>
-
     </main>
-    <footer>
+    <footer class="h-[450px] mt-16 text-white bg-[#1C1C1C]">
 
     </footer>
 </body>
