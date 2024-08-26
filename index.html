@@ -12,7 +12,7 @@
 
 </head>
 <body class="font-family-manrope bg-[#1e1e1e17]">
-    <header class="bg-white">
+    <header class="bg-gradient-to-t from-white to-white/0">
         <!-- Navbar start is hear -->
         <nav class="container mx-auto flex justify-between items-center p-2">
             <div class="flex gap-2 px-2 py-1 items-center">
@@ -30,7 +30,7 @@
                 </ul>
             </div>
             <!-- Navbar button start is hear -->
-            <div class="flex gap-2 items-center bg-white">
+            <div class="flex gap-2 items-center">
                 <div class="hidden md:flex  lg:flex gap-2 rounded-full items-center">
                     <span class="border-2 border-[#E9E9E9] p-1 rounded-full bg-white cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"            stroke="currentColor" class="size-6">
@@ -373,10 +373,40 @@
             </div>
         </section>
     </main>
-    <footer class="h-[450px] mt-16 text-white bg-[#1C1C1C]">
-        <div>
+        <!-- Footer section start is here -->
+    <footer class="h-full lg:h-[450px] mt-16 p-4 bg-[#1C1C1C]">
+        <div class="container mx-auto py-8 space-y-10 flex flex-col items-center">
+            <div class="flex gap-2 px-2 py-1 items-center">
+                <span class="p-0.5 -rotate-45 bg-[#ABEF5F] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"   stroke-width="1" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg> </span>
+                <h2 class="font-extrabold text-3xl cursor-pointer text-white">Rinterio</h2>
+            </div>
+            <p class="w-full md:w-3/5 lg:w-3/5 text-justify font-medium text-[#737373]">
+                Rinterio is all about merging innovative design with functional spaces. Our focus is on creating interiors that not only meet aesthetic standards but also enhance the quality of life for those who live and work in them. We strive to bring your vision to reality with precision and creativity.
+            </p>
 
-        </div>
+            <div class="md:w-full lg:w-full">
+                <ul class="space-y-6 md:space-y-0 lg:space-y-0 md:flex md:justify-around 
+                    lg:flex lg:justify-around px-3 py-1 text-center text-[#E9E9E9]">
+                    <li class="font-extrabold text-x"><a href="#">Home</a></li>
+                    <li class="hover:bg-[#ABEF5F] hover:text-black px-3 rounded-full transition duration-500 ease-in-out"><a href="#">Services</a></li>
+                    <li class="hover:bg-[#ABEF5F] hover:text-black px-3 rounded-full transition duration-500 ease-in-out"><a href="#">Portfolio</a></li>
+                    <li class="hover:bg-[#ABEF5F] hover:text-black px-3 rounded-full transition duration-500 ease-in-out"><a href="#">Blogs</a></li>
+                    <li class="hover:bg-[#ABEF5F] hover:text-black px-3 rounded-full transition duration-500 ease-in-out"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <!-- Footer section button -->
+                <button class="flex gap-2 items-center font-extrabold text-xl 
+                    bg-[#ABEF5F] rounded-full py-2 px-24 px- md:px-4 lg:py-2">
+                    Book Consult
+                    <span class="p-0.5 -rotate-45 text-white bg-[#1C1C1C] rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"   stroke-width="1" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>
+                    </span>
+                </button>
+            </div>
+        </div>    
     </footer>
 </body>
 </html>
