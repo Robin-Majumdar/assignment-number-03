@@ -12,6 +12,7 @@
 
 </head>
 <body class="font-family-manrope bg-[#1e1e1e17]">
+        <!-- Here start our header section or nav plus banner -->
     <header class="bg-gradient-to-t from-white to-white/0">
         <!-- Navbar start is hear -->
         <nav class="container mx-auto flex justify-between items-center p-2">
@@ -251,15 +252,15 @@
                     </p>
                 </div>
                 <!-- Grid card section -->
-                <div class="p-4 border-2 border-green-600">
+                <div class="p-4">
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-4 gap-y-4">
                                 <!-- Card-01 -->
                         <div class="md:col-span-2 lg:col-start-1 lg:col-span-5 rounded-2xl p-4 border bg-white">
-                            <div class="flex items-center justify-center space-x-4">
-                                <div class="w-1/2">
-                                    <img class="w-full" src="assets/images/img1.png" alt="">
+                            <div class="md:flex lg:flex items-center justify-center space-y-4 md:space-y-0 lg:space-y-0 space-x-4">
+                                <div class="md:w-1/2 lg:w-1/2">
+                                    <img class="h-[220px] w-full md:h-full lg:h-full" src="assets/images/img1.png" alt="">
                                 </div>
-                                <div class="w-1/2 space-y-4">
+                                <div class="md:w-1/2 lg:w-1/2 space-y-4">
                                     <h4 class="font-extrabold text-2xl text-justify text-[#494949]">Commercial</h4>
                                     <p class="font-medium text-[#737373]">
                                         The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.
@@ -276,23 +277,23 @@
                         </div>
                                 <!-- Card-02 -->
                         <div class="md:col-span-1 lg:col-start-6 lg:col-span-3 rounded-2xl p-4 border bg-white">
-                            <img class="w-full h-full" src="assets/images/img2.png" alt="">
+                            <img class="h-[220px] w-full md:h-full lg:h-full" src="assets/images/img2.png" alt="">
                         </div>
                                 <!-- Card-03 -->
                         <div class="md:col-span-1 lg:hidden rounded-2xl p-4 border bg-white">
-                            <img class="w-full" src="assets/images/img5.png" alt="">
+                            <img class="h-[220px] w-full md:h-full lg:h-full" src="assets/images/img5.png" alt="">
                         </div>
                                 <!-- Card-04 -->
-                        <div class="lg:col-end-3 lg:col-span-2 rounded-2xl p-4 border bg-white">
-                            <img class="w-full" src="assets/images/img3.png" alt="">
+                        <div class="lg:col-end-3 lg:col-span-2 order-4 md:order-4 lg:order-none rounded-2xl p-4 border bg-white">
+                            <img class="h-[220px] w-full md:h-full lg:h-full" src="assets/images/img3.png" alt="">
                         </div>
                                 <!-- Card-05 -->
                         <div class="md:col-span-2 lg:col-end-7 lg:col-span-4 rounded-2xl p-4 border bg-white">
-                            <div class="flex items-center justify-center space-x-4">
-                                <div class="w-1/2">
-                                    <img class="w-full" src="assets/images/img4.png" alt="">
+                            <div class="md:flex lg:flex items-center justify-center space-y-4 md:space-y-0 lg:space-y-0 space-x-4">
+                                <div class="md:w-1/2 lg:w-1/2">
+                                    <img class="h-[220px] w-full md:h-full lg:h-full" src="assets/images/img4.png" alt="">
                                 </div>
-                                <div class="w-1/2 space-y-4">
+                                <div class="md:w-1/2 lg:w-1/2 space-y-4">
                                     <h4 class="font-extrabold text-2xl text-justify text-[#494949]">Commercial</h4>
                                     <p class="font-medium text-[#737373]">
                                         The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.
@@ -308,8 +309,9 @@
                             </div>
                         </div>
                                 <!-- Card-06 -->
-                        <div class="lg:col-end-9 lg:col-span-2 rounded-2xl p-4 border bg-white">
-                            <img class="w-full" src="assets/images/img5.png" alt="">
+                        <div class="lg:col-end-9 lg:col-span-2 order-last md:order-last lg:order-none
+                                    rounded-2xl p-4 border bg-white">
+                            <img class="h-[220px] w-full md:h-full lg:h-full" src="assets/images/img5.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -375,7 +377,7 @@
     </main>
         <!-- Footer section start is here -->
     <footer class="h-full lg:h-[450px] mt-16 p-4 bg-[#1C1C1C]">
-        <div class="container mx-auto py-8 space-y-10 flex flex-col items-center">
+        <div class="container mx-auto mt-6 py-8 space-y-10 flex flex-col items-center">
             <div class="flex gap-2 px-2 py-1 items-center">
                 <span class="p-0.5 -rotate-45 bg-[#ABEF5F] rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"   stroke-width="1" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg> </span>
